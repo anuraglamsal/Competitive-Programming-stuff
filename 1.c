@@ -15,5 +15,5 @@ int main (){
 
 //I realized that odd numbers cannot be broken down into the sum of two even numbers. Thus, odd numbers should always give "NO".
 //But you can build up an even number through the sum of both two even numbers and two odd numbers. I just needed to think about an even number
-//that can only be broken down into the sum of two odd numbers. I realized that only '2' exhibits suchs property. Thus, '2' should give "NO"
+//that can only be broken down into the sum of two odd numbers. I realized that only '2' exhibits such property. Thus, '2' should give "NO"
 //and all other even numbers should give "YES".
