@@ -19,3 +19,25 @@ int main () {
   }
   return 0;
 }
+
+/*#include <stdio.h>
+#include <string.h>
+int main () {
+  int n;
+  scanf("%d", &n);
+  char a[101];
+  for (int i = 0; i < n ; ++i){
+    scanf("%s", a);
+    if (strlen(a)>10){
+      printf("%c%ld%c \n", a[0], strlen(a)-2, a[strlen(a)-1]); 
+    }
+    else{
+      printf("%s \n", a);
+    }
+  }
+  return 0;
+}
+This is a better way to do the same. I didn't know that when you input a bunch of stuff at once, you can
+perform the required operations on those inputs in the same loop, and the outputs of all the individual inputs
+show up separately below the inputs in order. (obv., in a lot of conditions, this is not viable, but good to know.)
+*/
