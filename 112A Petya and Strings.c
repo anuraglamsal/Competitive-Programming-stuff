@@ -12,7 +12,7 @@ char *strlwr(char *str){
   return str;
 }*/
 int main(){
-  char a[2][101]; //Probably good to use 2 single dimensional arrays? idk.
+  char a[2][101]; //Is it good to use two 1-D arrays rather than one 2-D array here? 
   scanf("%s %s", a[0], a[1]);
   strlwr(a[0]); //converting the letters to lowercase to make things easy for us.
   strlwr(a[1]);
