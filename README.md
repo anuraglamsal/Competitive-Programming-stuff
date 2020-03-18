@@ -1,2 +1,2 @@
 # codeforces
-Solving Codeforces problems starting from most solved
+Solving Codeforces problems starting from most solved in C. 
