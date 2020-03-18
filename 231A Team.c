@@ -10,7 +10,7 @@ int main (){
                 //'\n' when we press 'Enter' each time. Thus, if we don't give it extra memory, it evidently doesn't work.
   for (int i = 1; i <= n; ++i){
     fgets(line, sizeof(line), stdin); //Taking the inputs as strings using 'fgets' such that spaces aren't compromised. And also it's better
-                                      //apparently.
+                                      //apparently compared to 'gets'. 
     //The conditions below are straightforward.
     if (line[0]=='1'){
       p++;
@@ -26,7 +26,7 @@ int main (){
     }
     p = 0;
   }
-  printf("%d", a);*/
+  printf("%d", a);*/ //For some reason though, this solution was 2ms faster than the solution below. Probably a fluke?
 
   //This is way more intuitive and better. 
   int n, p, v, t, a=0;
