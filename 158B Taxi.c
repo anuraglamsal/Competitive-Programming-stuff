@@ -49,7 +49,7 @@
 int main () {
   int n, c[4] = {0}, g;
   scanf("%d", &n);
-  for (int i = 0; i < n; ++i){ //The key idea is to solve this problem without exceeding time limit is to count instead of store the
+  for (int i = 0; i < n; ++i){ //The key idea is to solve this problem without exceeding time limit is to count instead of storing the
                                //input numbers.
     scanf("%d", &g);
     c[g-1] += 1;
