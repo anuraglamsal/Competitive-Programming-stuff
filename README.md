@@ -1,2 +1,1 @@
-# codeforces
-Solving Codeforces problems starting from most solved in C. 
+I stopped bothering to upload these at a certain point tbh. 
